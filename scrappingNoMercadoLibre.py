@@ -21,7 +21,7 @@ def parser(url):
 
 
 class Crawler:
-    """Classe principal que com base nas tags, identifica os conteúdos"""
+    """Classe principal que ,com base nas tags, identifica os conteúdos"""
     def __init__(self, url, tagtitulo, taglink, tagpreco, tagproximaPag):
         self.url = url
         self.tagtitulo = tagtitulo
